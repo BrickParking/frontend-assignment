@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  merk: MyString
+  handelsbenaming: MyString
+  voertuigsoort: MyString
+  eerste_kleur: MyString
+  aantal_zitplaatsen: 1
+  catalogusprijs: 1
+  user: one
+
+two:
+  merk: MyString
+  handelsbenaming: MyString
+  voertuigsoort: MyString
+  eerste_kleur: MyString
+  aantal_zitplaatsen: 1
+  catalogusprijs: 1
+  user: two
