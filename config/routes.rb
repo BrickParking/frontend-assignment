@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :vehicles, only: [:index, :create, :update] do
+  resources :vehicles do
     collection do
       get 'search(/:license_plate)', action: 'search'
     end
